@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  background-color: #000e1e;
+  height: 100vh;
+  color: white;
+  display: flex;
+}
+
+.container {
+  padding-top: 100px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.primaryColor {
+  color: #FF0000;
+}
+
+.secondaryColor {
+  color: rgb(184, 65, 184);
+}
+
+.mainForm select {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+  outline: none;
+  font-size: 1rem;
+}
+
+.mainButton {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  border: 1px solid #FF0000;
+  outline: none;
+  background-color: #FF0000;
+  color: white;
+  font-weight: 900;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.mainButton:hover {
+  background-color: #dc0404;
+}
+
+.creatorContainer {
+  position: relative;
+  margin: 20px auto;
+  width: 700px;
+  height: 400px;
+  border: 1px solid #dc0404;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+}
+
+.titlesContainer {
+  text-align: left;
+  padding: 0 40px 40px;
+}
+
+.titlesContainer p {
+  white-space: pre-wrap;
+  font-weight: 500;
+}
+
+.refreshButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #d7b9f0;
+  border: none;
+  outline: none;
+  height: 36px;
+  width: 36px;
+  color: #420956;
+  font-size: 1rem;
+}
